@@ -8,7 +8,7 @@ export function IntroCard() {
           <div className="flex-none place-self-center px-4">
             <img
               className="h-64 w-64 rounded-full"
-              src="./src/assets/me.jpeg"
+              src="./me.jpeg"
               alt="A photo of myself."
             ></img>
           </div>
