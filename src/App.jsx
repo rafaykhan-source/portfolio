@@ -55,13 +55,23 @@ const projects = [
 
 export default function App() {
   return (
-    <div>
-      <NavBar></NavBar>
-      <div className="place-self-center">
-        <IntroCard></IntroCard>
-      </div>
-      <ProjectsTable projects={projects}></ProjectsTable>
-      <Footer></Footer>
+    <div className="flex min-h-screen flex-col bg-slate-950 text-gray-300">
+      <header>
+        <NavBar></NavBar>
+      </header>
+      <main className="flex-grow">
+        <div className="grid grid-flow-row place-items-center">
+          <div>
+            <IntroCard></IntroCard>
+          </div>
+          <div>
+            <ProjectsTable projects={projects}></ProjectsTable>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </div>
   )
 }
