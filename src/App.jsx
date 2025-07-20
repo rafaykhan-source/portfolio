@@ -55,7 +55,7 @@ const projects = [
 
 export default function App() {
   return (
-    <div className="bg-slate-950 text-gray-300">
+    <div>
       <NavBar></NavBar>
       <div className="place-self-center">
         <IntroCard></IntroCard>
