@@ -1,6 +1,6 @@
 export function ProjectCard({ project }) {
   const skills = project.skills.map((skill) => (
-    <div className="rounded-lg border-2 border-blue-300 border-opacity-75 px-2 text-sm">
+    <div className="place-content-center rounded-lg border-2 border-blue-300 border-opacity-75 px-2 text-sm">
       {skill}
     </div>
   ))
