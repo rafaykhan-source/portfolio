@@ -3,7 +3,7 @@ import { IntroInfo } from './IntroInfo'
 export function IntroCard() {
   return (
     <>
-      <div className="m-4 rounded-xl border-2 border-gray-700 p-4 md:my-8 md:max-w-6xl md:p-8">
+      <div className="m-8 rounded-xl border-2 border-gray-700 p-4 md:max-w-6xl md:p-8">
         <div className="grid grid-cols-1 place-items-center md:grid-flow-row-dense lg:grid-cols-3">
           <div className="flex-none px-4">
             <img
