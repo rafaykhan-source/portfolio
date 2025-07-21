@@ -50,7 +50,7 @@ const projects = [
 
 export default function App() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex flex-col">
       <header>
         <NavBar></NavBar>
       </header>

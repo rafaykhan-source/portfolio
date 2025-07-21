@@ -1,7 +1,7 @@
 export function IntroInfo() {
   return (
     <>
-      <div className="pb-2 text-xl font-bold">Hi There! 👋</div>
+      <div className="pb-2 text-2xl font-bold">Hi There! 👋</div>
       <div className="pb-2">
         I'm <strong>Rafay Khan</strong>, a recent Computer Science (BSE)
         graduate from Princeton University. I like to automate things and
