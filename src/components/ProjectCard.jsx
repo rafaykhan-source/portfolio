@@ -8,11 +8,13 @@ export function ProjectCard({ project }) {
     <>
       <a
         href={project.url}
-        className="delay-50 m-2 flex flex-col rounded-xl border-2 border-solid border-gray-700 p-8 transition duration-200 ease-in-out hover:-translate-y-1 hover:border-gray-400"
+        className="delay-50 grid-col grid rounded-xl border-2 border-solid border-gray-700 p-8 transition duration-200 ease-in-out hover:-translate-y-1 hover:border-gray-400"
       >
         <div className="text-xl font-semibold">{project.name}</div>
         <div className="py-1">{project.description}</div>
-        <div className="flex flex-row gap-1 pt-1">{skills}</div>
+        <div className="flex flex-col place-items-center gap-1 pt-1 sm:flex-row">
+          {skills}
+        </div>
       </a>
     </>
   )

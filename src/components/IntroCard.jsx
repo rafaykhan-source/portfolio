@@ -3,9 +3,9 @@ import { IntroInfo } from './IntroInfo'
 export function IntroCard() {
   return (
     <>
-      <div className="max-w-6xl p-4">
-        <div className="grid place-items-center sm:grid-flow-row-dense lg:grid-cols-3">
-          <div className="flex-none place-self-center px-4">
+      <div className="p-4 md:max-w-6xl">
+        <div className="grid grid-cols-1 place-items-center md:grid-flow-row-dense lg:grid-cols-3">
+          <div className="flex-none px-4">
             <img
               className="h-64 w-64 rounded-full"
               src="./me.jpeg"

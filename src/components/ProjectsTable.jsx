@@ -6,7 +6,7 @@ export function ProjectsTable({ projects }) {
   ))
   return (
     <>
-      <div className="grid px-4 sm:grid-flow-row-dense xl:grid-cols-2">
+      <div className="grid grid-flow-row-dense gap-2 px-4 lg:grid-cols-2">
         {items}
       </div>
     </>
