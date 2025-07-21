@@ -13,7 +13,7 @@ const projects = [
   },
   {
     name: 'Portfolio Page',
-    url: 'https://www.rafaykhan.org',
+    url: 'https://github.com/rafaykhan-source/portfolio',
     description:
       'A website heavily inspired by a very popular remote version control service.',
     skills: ['React', 'Tailwind CSS', 'JavaScript', 'Vite'],
@@ -44,12 +44,7 @@ const projects = [
     url: 'https://github.com/rafaykhan-source/COS126-FinalProject',
     description:
       'A study timer, made as my final project for COS126 at Princeton University.',
-    skills: [
-      'Java',
-      'Object Oriented Programming',
-      'Unit Testing',
-      'Debugging',
-    ],
+    skills: ['Java', 'Unit Testing', 'Debugging'],
   },
 ]
 
