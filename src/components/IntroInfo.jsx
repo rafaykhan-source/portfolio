@@ -3,9 +3,9 @@ export function IntroInfo() {
     <>
       <div className="pb-2 text-xl font-bold">Hi There! 👋</div>
       <div className="pb-2">
-        I'm Rafay Khan, a recent Computer Science (BSE) graduate from Princeton
-        University. I like to automate things and develop software in the hopes
-        of improving general quality of life.
+        I'm <strong>Rafay Khan</strong>, a recent Computer Science (BSE)
+        graduate from Princeton University. I like to automate things and
+        develop software in the hopes of improving general quality of life.
       </div>
       <div className="pb-2">
         I have <strong>full-stack software engineering experience</strong>,
