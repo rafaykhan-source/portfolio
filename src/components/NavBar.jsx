@@ -20,7 +20,7 @@ export function NavBar() {
   ))
   return (
     <>
-      <div className="grid grid-flow-col place-content-center divide-x-2 divide-solid divide-gray-400 border-b-2 border-gray-700 bg-zinc-950 py-2">
+      <div className="grid grid-flow-col place-content-center divide-x-2 divide-solid divide-gray-400 border-b-2 border-gray-700 py-2">
         {navItems}
       </div>
     </>

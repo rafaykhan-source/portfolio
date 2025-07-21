@@ -8,7 +8,7 @@ export function ProjectCard({ project }) {
     <>
       <a
         href={project.url}
-        className="delay-50 grid-col grid gap-1 rounded-xl border-2 border-solid border-gray-700 p-8 transition duration-200 ease-in-out hover:-translate-y-1 hover:border-gray-400"
+        className="delay-50 grid-col grid gap-1 rounded-xl border-2 border-solid border-gray-700 p-8 transition duration-200 ease-in-out hover:-translate-y-1 hover:border-gray-400 hover:bg-slate-800"
       >
         <div className="text-xl font-semibold">{project.name}</div>
         <div>{project.description}</div>
