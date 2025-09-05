@@ -3,7 +3,14 @@ import { Footer } from './components/Footer'
 import { NavBar } from './components/NavBar'
 import { ProjectsTable } from './components/ProjectsTable'
 
-const projects = [
+type Project = {
+  name: string
+  url: string
+  description: string
+  skills: string[]
+}
+
+const projects: Project[] = [
   {
     name: 'Marshmallow',
     url: 'https://github.com/rafaykhan-source/marshmallow/',

@@ -14,12 +14,12 @@ export function IntroInfo() {
       </div>
       <ul className="ml-4">
         <li>
-          • I'm the creator of Mentor Match, a mentorship group formation
+          I'm the creator of Mentor Match, a mentorship group formation
           algorithm utilized by Princeton University for creating class sections
           and mentor-led student advisory groups.
         </li>
         <li>
-          • I'm the creator of Marshmallow, an automation suite responsible for
+          I'm the creator of Marshmallow, an automation suite responsible for
           putting <strong>thousands</strong> of first-generation, low-income
           students in touch with their mentors, identifying missing student
           program enrollees, and tracking student engagement with weekly
